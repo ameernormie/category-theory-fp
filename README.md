@@ -12,7 +12,7 @@ Table of Contents
 - Why is category theory important?
 - Is category theory only relevant to functional programming?
 
-Divide the problem in small chunks. Find the solution for small chunks and in the end combine the solutions in to one big solution. This is called composability.
+Divide the problem in small chunks. Find the solution for small chunks and in the end combine the solutions of small chunks in to one big solution. This is called composability.
 
 **Why not OOP?**
 Objects hide implementation and they hide exactly the wrong thing. Which makes them un-composable.
@@ -33,3 +33,4 @@ We want to get to this higher level of abstractions to help us abstract ideas th
 
 **Philosophical Motivation**
 Category theory unifies a lot of things. If you abstract enough on top of all unnecessary stuff then suddenly all these things start looking similar. From that high level all programming languages start looking similar.
+At this high level other thing look the same. There is this unification of all areas of mathematics in category theory.
