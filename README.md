@@ -111,7 +111,8 @@ I can identify a lot of things just by looking at morphisms.
 
 - Is the set empty
 - Is the set a single value set
-  ...
+- ...
+- ...
 
 If you are thinking about what's inside a set, you are thinking about assembly language of sets, about the elements of the set, how they are mapped. Category theory gives you this higher level language in which you don't have to look inside the set, you just have to look how they are connected with arrows. It's the ultimate data hiding. You have this object, a data set but you cannot look inside of it. It shrunk to a single point. All you have is it's interface.
 `Interface is how it connects to other objects. All these arrows coming out of the object and into the object`
