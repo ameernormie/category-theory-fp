@@ -6,6 +6,7 @@ Table of Contents
 
 - [1.1 Motivation and Philosophy](#motivation-and-philosophy)
 - [1.2 What is a Category](#what-is-a-category)
+- [2.1 Functions, Epimorphisms](#functions-and-epimorphisms)
 
 ## Motivation and Philosophy
 
@@ -118,3 +119,5 @@ If you are thinking about what's inside a set, you are thinking about assembly l
 `Interface is how it connects to other objects. All these arrows coming out of the object and into the object`
 
 If you take this idea of data hiding this is where it really shines, this is the end of the road for abstraction.
+
+## Functions and Epimorphisms
