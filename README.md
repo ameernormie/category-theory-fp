@@ -121,3 +121,32 @@ If you are thinking about what's inside a set, you are thinking about assembly l
 If you take this idea of data hiding this is where it really shines, this is the end of the road for abstraction.
 
 ## Functions and Epimorphisms
+
+When you write a language you have to define the semantics of the language.
+
+- Operational Semantics
+- Denotional Semantics
+
+##### Operational Semantics
+
+You define operations of language, how one expression can be transformed in to other.
+
+##### Denotional Semantics
+
+You actually map it to another area that you understand, in particular the most interesting way of mapping is to map it to mathematics. You build a mathematical model and you say `this statement in the language corresponds to some mathematical thing, and this mathematical thing for types is set of values and for functions it's a function between sets`
+
+A function in programming is not exactly the function in mathematics. By function between sets we really mean a `pure function` or a `total function`. because a mathmatical function is defined for every argument, not just for some arguments. This is the major source of problem in programming, we have these partial functions, functions are defined for some arguments and not the other.
+
+`A total function is defined for all arguments`.
+**- How can you tell if a function is pure?**
+`A function is pure if you can memoize it`. Which means, you can turn it into a lookup table, because for a unique argument it returns a unique value and you can remember it.
+
+**- But the question is, how can you program using only pure functions? We need side effects**
+Pure function is an atom, the building block of programs. We can build stuff on top of the pure functions by composing even including side effects (I/O).
+
+#### Functions
+
+We have to look at the functions from a different perspective. We have to look at them at how we can use them as `morphisms` in our category.
+Functions are defined in mathematics as a special kind of relation.
+Relation is just a subset of pairs of elements. In general, relations does not have directionality, functions are set of arrows going from a particular direction to the other.
+what kind of condition we have to impose on a relation to become a function?
